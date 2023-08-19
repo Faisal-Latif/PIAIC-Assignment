@@ -1,5 +1,6 @@
 "use strict";
 console.log('Ahmed');
+console.log("jaan");
 var myname = 'faisal';
 console.log(myname);
 var message = "I have started learning typescript";

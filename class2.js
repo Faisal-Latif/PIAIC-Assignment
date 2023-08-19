@@ -92,4 +92,3 @@ let output9 = log1 <= log2 && log2 == log1;
 let output10 = log1 > log2 && log1 !== log2;
 let output11 = log2 <= log1 || log1 < log2;
 let output12 = log1 != log2 || log2 < log1;
-console.log(output11);

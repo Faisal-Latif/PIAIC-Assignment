@@ -1,4 +1,5 @@
 console.log('Ahmed');
+console.log("jaan");
 var myname:string='faisal';
 console.log(myname);
 var message:string="I have started learning typescript";
