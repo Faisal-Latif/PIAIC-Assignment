@@ -75,6 +75,14 @@ do {
     i++
 } while (i<10);
 
+for (let index = 0; index < array.length; index++) {
+    if (condition) {
+        
+    }
+    const element = array[index];
+    
+}
+
 //write a ts programe,that print the table of 5.
 let start5:number=1;
 while (start5<=10) {
