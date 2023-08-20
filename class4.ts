@@ -69,10 +69,10 @@ while (start<=10) {
     console.log("2*"+start+"="+result);
     start=start+1;
 }
-let i:number=1;
+let i1:number=1;
 do {
     console.log("faisal");
-    i++
+    i1++
 } while (i<10);
 
 for (let index = 0; index < array.length; index++) {
