@@ -74,6 +74,28 @@ else if (section == "B") {
 else {
     console.log("Your class timimg every sunday 04PM-06PM");
 }
+//function
+function sum(num1, num2) {
+    //var num1:number=10;
+    //var num2:number=30;
+    var result = num1 + num2;
+    //result = result+5;
+    return result;
+    console.log(result);
+}
+var sumresult = sum(40, 50);
+sumresult = sumresult + 5;
+console.log(sumresult);
+//Arrow
+var sumArrow = (num3, num4) => {
+    //var num3:number=25;
+    //var num4:number=35;
+    var sumAdd = num3 + num4;
+    return sumAdd;
+    console.log(sumAdd);
+};
+var addSum = sumArrow(35, 45);
+console.log(addSum);
 //Write a program to convert the temperature from Celsius to Fahrenheit and vice verse.
 function CtoFtemperature() {
     var temp = 37;

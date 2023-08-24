@@ -54,6 +54,7 @@ while (index<10) {
     index=index+1;
     index++
     index--
+    index=index-1;
     ++index;
     --index;
 

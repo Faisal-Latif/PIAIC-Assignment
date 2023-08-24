@@ -45,6 +45,30 @@ switch(section){
 if(section=="A"){console.log("Your class timing every sunday 09AM-01PM");}
 else if(section=="B"){console.log("Your class timing every sunday 02PM-04PM");}
 else {console.log("Your class timimg every sunday 04PM-06PM");}
+//function
+function sum(num1:number,num2:number) {
+    //var num1:number=10;
+    //var num2:number=30;
+    var result:number=num1+num2;
+    //result = result+5;
+    return result
+    console.log(result);
+}
+var sumresult:number=sum(40,50)
+sumresult=sumresult+5;
+console.log(sumresult);
+//Arrow
+var sumArrow=(num3:number,num4:number):number=>{
+    //var num3:number=25;
+    //var num4:number=35;
+    var sumAdd=num3+num4;
+    return sumAdd
+    console.log(sumAdd);
+}
+var addSum:number=sumArrow(35,45)
+console.log(addSum);
+
+
 //Write a program to convert the temperature from Celsius to Fahrenheit and vice verse.
 function CtoFtemperature() {
     var temp:number=37;
