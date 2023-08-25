@@ -42,23 +42,19 @@ studentnames[2] = "jawwad";
 console.log(studentnames[2]);
 var studentrollnos = new Array(6);
 //loop
+console.log("after loop");
 for (let i = 0; i < 5; i++) {
-    console.log("1", 1);
+    console.log("for loop 1", 1);
 }
 console.log("before loop");
 var index = 1;
 while (index < 10) {
     console.log("index", index);
     index = index + 1;
-    index++;
-    index--;
-    index = index - 1;
-    ++index;
-    --index;
 }
 console.log("after loop");
 for (let i = 0; i <= 5; i++) {
-    console.log("best of +luck");
+    console.log("best of luck");
 }
 //write a ts programe,that print the table of 2.
 let start = 1;
@@ -67,11 +63,11 @@ while (start <= 10) {
     console.log("2*" + start + "=" + result);
     start = start + 1;
 }
-let i1 = 1;
+let index1 = 1;
 do {
     console.log("faisal");
-    i1++;
-} while (i1 < 10);
+    index1++;
+} while (index1 < 10);
 //write a ts programe,that print the table of 5.
 let start5 = 1;
 while (start5 <= 10) {

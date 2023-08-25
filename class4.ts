@@ -44,24 +44,19 @@ studentnames[2]="jawwad";
 console.log(studentnames[2]);
 var studentrollnos=new Array(6)
 //loop
+console.log("after loop");
 for (let i = 0; i < 5; i++) {
-    console.log("1", 1);
+    console.log("for loop 1", 1);
 }
 console.log("before loop")
 var index:number=1;
 while (index<10) {
     console.log("index", index);
     index=index+1;
-    index++
-    index--
-    index=index-1;
-    ++index;
-    --index;
-
 }
 console.log("after loop")
 for (let i=0;i<=5;i++) {
-    console.log("best of +luck")
+    console.log("best of luck")
 }
 //write a ts programe,that print the table of 2.
 let start:number=1;
@@ -70,14 +65,11 @@ while (start<=10) {
     console.log("2*"+start+"="+result);
     start=start+1;
 }
-let i1:number=1;
+let index1:number=1;
 do {
     console.log("faisal");
-    i1++
-} while (i1<10);
-
-
-
+    index1++
+} while (index1<10);
 //write a ts programe,that print the table of 5.
 let start5:number=1;
 while (start5<=10) {
@@ -140,18 +132,16 @@ console.log(updateQuantities(1,"Apples"));
 /* 3. A Program that uses a while-loop to print first 25 integers. */
 // whenever I use the program inside function the last value of output is undefined.
 // How can I fix it?
-console.log("\nFirst 25 Integers are:");
+console.log("First 25 Integers are:");
 
 let initialValue:number = 1;
 while (initialValue <= 25) {
     console.log(initialValue);
     initialValue += 1;
 }
-
-
 /* 4. A Program that uses a while-loop to print first 10 even numbers. */
 
-console.log("\nFirst 10 Even Numbers are: ");
+console.log("First 10 Even Numbers are:");
 
 let initialVal:number = 0;
 while (initialVal < 20) {
@@ -186,12 +176,12 @@ console.log('\nFactorial of the given Number is: ',factorialOfNumber(5));
 If the number is negative it should remove the negative number from the array. */
 
 let aNumberArray:number[] = [1, -2, 3, 4, 5, -6, 7 ,8]
-let i = 0;
-while(i < aNumberArray.length){
-    if(aNumberArray[i] < 0){
-        aNumberArray.splice(i,1);
+let ia = 0;
+while(ia < aNumberArray.length){
+    if(aNumberArray[ia] < 0){
+        aNumberArray.splice(ia,1);
     }
-    i++;
+    ia++;
 }
 console.log('Array without Negative Numbers is: ',aNumberArray);
 
@@ -226,12 +216,3 @@ function arrayTempConverterCtoF(cTempArray:number[]) {
 
 console.log('Array of temperatures in Fahrenheit is: '
 ,arrayTempConverterCtoF([30, 40, 10, -3, 55]));
-
-
-
-
-
-
-
-
-
